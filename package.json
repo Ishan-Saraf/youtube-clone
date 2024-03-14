@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Ishan-Saraf.github.io/youtube-clone",
   "name": "youtube-clone",
   "version": "0.1.0",
   "private": true,
@@ -27,6 +28,8 @@
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -52,6 +55,7 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@types/babel__core": "^7.20.5",
     "autoprefixer": "^10.4.18",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1"
   }
