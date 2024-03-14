@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Ishan-Saraf.github.io/youtube-clone",
   "name": "youtube-clone",
   "version": "0.1.0",
   "private": true,
@@ -28,8 +27,6 @@
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
